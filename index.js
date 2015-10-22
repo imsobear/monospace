@@ -15,7 +15,13 @@ module.exports = function(str, len) {
 
   } else {
 
-    return str + ' '.repeat(len - str.length);
+    var spaces = '';
+
+    for (var i = 0; i < len - str.length; i++) {
+      spaces += ' ';
+    }
+
+    return str + spaces;
 
   }
 
