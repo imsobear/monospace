@@ -1,0 +1,21 @@
+{
+  "name": "monospace",
+  "version": "1.0.0",
+  "description": "get monospace string by space or dots",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha --timeout 20000 index.test.js"
+  },
+  "keywords": [
+    "string",
+    "monospace",
+    "aequilate"
+  ],
+  "author": "sobear.me@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "~3.4.0",
+    "mocha": "~2.3.3"
+  },
+  "dependencies": {}
+}
